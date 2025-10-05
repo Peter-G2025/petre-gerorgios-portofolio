@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/cantact.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">PETRE</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item"><a href="index.html" class="navbar__links">HOME</a></li>
+                <li class="navbar__item"><a href="" class="navbar__links">ABOUT</a></li>
+                <li class="navbar__item"><a href="index.html" class="navbar__links">ALL</a></li>
+                <li class="navbar__item"><a href="websites.html" class="navbar__links">WEBSITES</a></li>
+                <li class="navbar__item"><a href="posters.html" class="navbar__links">POSTER DESIGN</a></li>
+                <li class="navbar__item"><a href="contact.html" class="navbar__links">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <div class="main">
+        <div class="main__container">
+            <!-- Form Box -->
+            <div class="main__content">
+                <form action="https://formspree.io/f/xdkwdope" method="POST" class="contact__form">
+                    <h2>Contact Me</h2>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <!-- Image Box -->
+            <div class="main__img--container">
+                <img src="img/image 21.jpg" alt="pic" id="main__img">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>

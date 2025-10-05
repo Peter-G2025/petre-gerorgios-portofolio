@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petre Portfolio</title>
+  <link rel="stylesheet" href="css/stylee.css">
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="index.html" id="navbar__logo">PETRE</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item"><a href="index.html" class="navbar__links">HOME</a></li>
+        <li class="navbar__item"><a href="#" class="navbar__links">ABOUT</a></li>
+        <li class="navbar__item"><a href="index.html" class="navbar__links">ALL</a></li>
+        <li class="navbar__item"><a href="websites.html" class="navbar__links">WEBSITES</a></li>
+        <li class="navbar__item"><a href="posters.html" class="navbar__links">POSTER DESIGN</a></li>
+        <li class="navbar__item"><a href="contact.html" class="navbar__links">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="main">
+    <div class="main__container">
+      <div class="main__content">
+        <h1>MY NAME</h1>
+        <h2>IS GEORGIOS</h2>
+        <h2>PETRE...</h2>
+        <p>Web Designer based in Greece.</p>
+        <a href="contact.html" class="main__btn">Let's Talk</a>
+      </div>
+      <div class="main__img--container">
+        <img src="img/image 21.jpg" alt="Portrait of Georgios Petre" id="main__img" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- All Work Section -->
+  <section class="work">
+    <div class="work__container">
+      <div class="gallery">
+        <div class="gallery-item"><img src="img/poster1.jpg" alt="Poster Project 1" loading="lazy"></div>
+        <div class="gallery-item"><img src="img/poster2.png" alt="Poster Project 2" loading="lazy"></div>
+        <div class="gallery-item"><img src="imgposter3.jpg" alt="Poster Project 3" loading="lazy"></div>
+        <div class="gallery-item"><img src="img/web1.png" alt="Website Project 1" loading="lazy"></div>
+        <div class="gallery-item"><img src="img/web3.jpg" alt="Website Project 2" loading="lazy"></div>
+        <div class="gallery-item"><img src="img/web4.jpg" alt="Website Project 3" loading="lazy"></div>
+        <div class="gallery-item"><img src="img/web5.jpg" alt="Website Project 4" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="Expanded view">
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
