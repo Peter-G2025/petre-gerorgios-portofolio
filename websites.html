@@ -1,106 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/websites.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Websites | Georgios Petre</title>
+  <link rel="stylesheet" href="css/websites.css" />
 </head>
 <body>
-     <nav class="navbar">
-        <div class="navbar__container">
-            <a href="index.html" id="navbar__logo">PETRE</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="index.html" class="navbar__links">
-                        HOME
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="websites.html" class="navbar__links">
-                        ABOUT
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="index.html" class="navbar__links">
-                        ALL
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="websites.html" class="navbar__links">
-                        WEBSITES
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="posters.html" class="navbar__links">
-                        POSTER DESIGN
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="contact.html" class="navbar__links">
-                        CONTACT
-                    </a>
-                </li>
-            </ul>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="index.html" id="navbar__logo">PETRE</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item"><a href="index.html" class="navbar__links">HOME</a></li>
+        <li class="navbar__item"><a href="websites.html" class="navbar__links">ABOUT</a></li>
+        <li class="navbar__item"><a href="index.html" class="navbar__links">ALL</a></li>
+        <li class="navbar__item"><a href="websites.html" class="navbar__links">WEBSITES</a></li>
+        <li class="navbar__item"><a href="posters.html" class="navbar__links">POSTER DESIGN</a></li>
+        <li class="navbar__item"><a href="contact.html" class="navbar__links">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="main">
+    <div class="main__container">
+      <div class="main__content">
+        <h1>MY NAME</h1>
+        <h2>IS GEORGIOS</h2>
+        <h2>PETRE...</h2>
+        <p>Web Designer based in Greece.</p>
+        <a href="contact.html" class="main__btn">Let's Talk</a>
+      </div>
+      <div class="main__img--container">
+        <img src="img/image 21.jpg" alt="Profile Picture" id="main__img" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Work / Gallery -->
+  <section class="work">
+    <div class="work__container">
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="img/web1.png" alt="Website Project 1" />
         </div>
-    </nav>
-
-    <!-- Hero Section-->
-     <div class="main">
-        <div class="main__container">
-            <div class="main__content">
-                <h1>MY NAME </h1>
-                <h2> IS GEORGIOS</h2>
-                <h2> PETRE...</h2>
-                <p>Web Designer based in Greece .</p>
-                <button class="main__btn"><a href="contact.html">let's Talk</a></button>     
-            </div>
-            <div class="main__img--container">
-             <img src="img/image 21.jpg" alt="pic" id="main__img">
-          </div> 
-            
+        <div class="gallery-item">
+          <img src="img/web2.jpg" alt="Website Project 2" />
         </div>
-     </div>
-
-     <!--all work -->
-     <div class="work">
-        <div class="work__container">
-            <div class="work__content">
-                 <div class="gallery">
-  <div class="gallery-item">
-    <img src="img/web1.png" alt="Project 1">
-  </div>
-  <div class="gallery-item">
-    <img src="img/web2.jpg" alt="Project 2">
-  </div>
-  <div class="gallery-item">
-    <img src="img/web3.jpg" alt="Project 3">
-  </div>
-<div class="gallery-item">
-    <img src="img/web4.jpg" alt="Project 3">
-  </div>
-  <div class="gallery-item">
-    <img src="img/web5.jpg" alt="Project 1">
-  </div
-  
-
-<!-- Lightbox -->
-<div id="lightbox">
-  <span class="close">&times;</span>
-  <img class="lightbox-content" id="lightbox-img">
-</div>
-
-
-             
-            </div>
+        <div class="gallery-item">
+          <img src="img/web3.jpg" alt="Website Project 3" />
         </div>
-     </div>
-     <script src="js/websites.js"></script>
-    
+        <div class="gallery-item">
+          <img src="img/web4.jpg" alt="Website Project 4" />
+        </div>
+        <div class="gallery-item">
+          <img src="img/web5.jpg" alt="Website Project 5" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox (εκτός gallery) -->
+  <div id="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="Expanded View" />
+  </div>
+
+  <script src="js/websites.js"></script>
 </body>
 </html>
